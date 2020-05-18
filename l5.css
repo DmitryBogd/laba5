@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+#grid-wrapper {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 25px;
+    justify-content: center;
+}
+
+.box img {
+    width: 100%;
+}
+
+#load-btn {
+    padding: 5px 10px;
+}
